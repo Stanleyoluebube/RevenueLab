@@ -27,7 +27,7 @@ const SERVICES = [
   'Property appraisal and market analysis',
   'Pricing strategy',
   'Dynamic pricing management',
-  'PriceLabs setup and optimization',
+  'Pricing tools setup and optimization',
   'Market and competitor analysis',
   'Seasonal and event pricing',
   'Booking-pace monitoring',

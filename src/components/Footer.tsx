@@ -153,7 +153,8 @@ export default function Footer(): React.JSX.Element {
 
                     {/* WhatsApp Community Link */}
                     <a
-                      href="https://chat.whatsapp.com/invite"
+                      href="https://chat.Free community 
+                      https://chat.whatsapp.com/JK49tyEZkD79VumjBhC0Yn?mode=gi_twhatsapp.com/invite"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors group"
