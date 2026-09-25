@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 pt-12 sm:pt-24 md:pt-40"
+        className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 pt-8 sm:pt-16 md:pt-40"
       >
         {/* Eyebrow */}
         <motion.p
