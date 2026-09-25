@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen w-full bg-black flex items-end overflow-hidden"
+      className="relative min-h-screen w-full bg-black flex items-center md:items-end overflow-hidden"
     >
       {/* Subtle animated gradient orb in top-right */}
       <motion.div
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 pt-4 sm:pt-12 md:pt-40"
+        className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24 pt-0 sm:pt-12 md:pt-40"
       >
         {/* Eyebrow */}
         <motion.p
