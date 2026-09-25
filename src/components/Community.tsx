@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, type Variants } from 'framer-motion';
-import { TrendingUp, MessageSquare, Globe, ArrowRight, Lock, Users } from 'lucide-react'
+import { ArrowRight, Lock, Users } from 'lucide-react'
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -150,7 +150,7 @@ export default function Community(): React.JSX.Element {
                 </p>
 
                 <ul className="space-y-3 mb-10">
-                  {tier.features.map((feature, i) => (
+                  {tier.features.map((feature) => (
                     <li className="flex items-start gap-3 text-sm text-white/70">
                       <div className="w-1.5 h-1.5 rounded-full bg-brand-orange mt-2 shrink-0" />
                       {feature}
