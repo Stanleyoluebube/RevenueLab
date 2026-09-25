@@ -70,7 +70,7 @@ const WORK_SAMPLES: WorkSample[] = [
     increase: '+203% Increase',
     strategy:
       'Occupancy optimization through strategic gap-night pricing and lead-time rules.',
-    imagePath: '/Track Record/After 20.png',
+    imagePath: '/Track Record/After 21.png',
   },
 ];
 
