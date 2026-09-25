@@ -71,9 +71,14 @@ export default function About(): React.JSX.Element {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.7 }}
-            className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+            className="relative overflow-hidden rounded-3xl border border-brand-orange/20 bg-brand-dark/40 p-8 md:p-14 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
           >
-            <div className="order-2 lg:order-1">
+            {/* Subtle Orange Glow */}
+            <div
+              className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-brand-orange blur-3xl opacity-10"
+              aria-hidden="true"
+            />
+            <div className="relative z-10 order-2 lg:order-1">
               <p className="text-brand-orange text-sm uppercase tracking-wider mb-4 font-medium">
                 Work with Us
               </p>
@@ -92,9 +97,10 @@ export default function About(): React.JSX.Element {
                 ))}
               </div>
               <p className="text-white/50 text-sm mt-8 italic border-l-2 border-brand-orange/30 pl-4">
-Whether you need a one-time setup or ongoing revenue management, we tailor our services to your property’s needs.              </p>
+                Whether you need a one-time setup or ongoing revenue management, we tailor our services to your property’s needs.
+              </p>
             </div>
-            <div className="order-1 lg:order-2 relative">
+            <div className="relative z-10 order-1 lg:order-2">
               <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 relative flex items-center justify-center group">
                 <img
                   src="/images/logo.jpg"
