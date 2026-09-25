@@ -65,7 +65,7 @@ export default function About(): React.JSX.Element {
     <section id="about" className="py-24 md:py-32 bg-brand-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         {/* Services Section - "Work with Us" */}
-        <div className="mb-32">
+        <div className="mb-16">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
