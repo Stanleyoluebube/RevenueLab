@@ -56,10 +56,10 @@ const clientTestimonials: Testimonial[] = [
 
 const studentTestimonials: Testimonial[] = [
   {
-    name: 'Tunde Adewale',
+    name: 'Celestina Ugwuoke',
     role: 'STR Host, 5 Properties',
     review:
-      'Before RevenueLab Academy, I was guessing my prices every week. Cynthia’s PriceLabs masterclass completely changed the game. My monthly revenue jumped by 40% in just two months.',
+      'I really enjoyed the PriceLabs Revenue Academy class by Coach Ebere O.! It was simple, practical, and taught me so much about dynamic pricing. I highly recommend it to anyone looking to improve pricing and boost revenue.',
     rating: 5,
   },
   {
