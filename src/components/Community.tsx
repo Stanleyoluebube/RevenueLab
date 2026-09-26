@@ -38,16 +38,17 @@ interface CommunityTier {
 
 const TIERS: CommunityTier[] = [
   {
-    title: 'Free Community',
+    title: 'RevenueLab Free Community',
     subtitle: 'RevenueLab Academy | Free Community',
     description:
-      'The entry point for anyone interested in short-term rental revenue management. Get free value, webinars, and introductory tips.',
+      'Join a growing community of hosts, property managers, and revenue professionals for practical insights, free learning opportunities, industry updates, and more.',
     features: [
-      'Short-Term Rental Revenue Management basics',
-      'Introduction to pricing strategies',
-      'PriceLabs and pricing tool insights',
-      'Updates about upcoming programs',
-      'Free webinars, tips and resources',
+      'Practical pricing & revenue management tips',
+      'PriceLabs and other pricing tool insights',
+      'Free webinars, trainings & resources',
+      'Industry insights and opportunities',
+      'Updates on upcoming courses and programs',
+      'Connect with other Short-Term Rental professionals',
     ],
     ctaText: 'Join Free Community',
     ctaLink: 'https://chat.whatsapp.com/JK49tyEZkD79VumjBhC0Yn?mode=gi_t',
@@ -55,17 +56,17 @@ const TIERS: CommunityTier[] = [
     icon: Users,
   },
   {
-    title: 'Revenue Managers Community',
+    title: 'RevenueLab Inner Circle',
     subtitle: 'RevenueLab Academy | Revenue Managers Community',
     description:
-      'The professional hub for paid members and students. Deep-dive discussions, direct access to founders, and advanced networking.',
+      'A private community for RevenueLab Academy students and members to get ongoing support, exchange practical insights, stay connected to industry opportunities, and learn alongside other revenue professionals.',
     features: [
-      'Direct access to the RevenueLab Academy team',
-      'Advanced Revenue Management discussions',
-      'Pricing tools support and practical guidance',
-      'Industry insights and opportunities',
-      'Peer networking with other Revenue Managers',
-      'Exclusive member resources',
+      'Direct support from the RevenueLab Academy team',
+      'Practical revenue management discussions',
+      'Pricing tools guidance & troubleshooting',
+      'Industry insights, trends & opportunities',
+      'Networking with fellow revenue professionals',
+      'Exclusive resources, updates & learning opportunities',
     ],
     ctaText: 'Join Paid Community',
     ctaLink: 'https://flutterwave.com/pay/kqrvcjgocuxg',

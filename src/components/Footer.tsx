@@ -77,7 +77,7 @@ export default function Footer(): React.JSX.Element {
                   Instructors & Operations
                 </span>
                 <p className="text-white/50 text-xs sm:text-sm">
-                  Led by Ebere & Abosede — managing 100+ high-performing properties.
+                  Led by Ebere & Abosede
                 </p>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function Footer(): React.JSX.Element {
               {/* Status Indicator */}
               <div className="mt-8 flex items-center gap-2 text-xs text-white/40">
                 <span className="w-2 h-2 rounded-full bg-[#25D366]" />
-                <span>Admissions is Open</span>
+                <span>Admission is Open</span>
               </div>
             </div>
           </div>

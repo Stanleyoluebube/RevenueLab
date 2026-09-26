@@ -21,10 +21,11 @@ const platforms: readonly PlatformPlan[] = [
     ctaText: 'Buy Directly →',
     isRecommended: true,
     features: [
-      'Direct instant access to learning portal',
+      '* Instant access to the learning portal',
       'Complete PriceLabs Masterclass modules',
-      'Downloadable revenue strategy templates',
-      'Lifetime course updates & direct support',
+      'Lifetime access to RevenueLab Inner Circle',
+      '1-year access to the course',
+      'Course updates & direct support',
     ],
   },
   {
@@ -35,10 +36,11 @@ const platforms: readonly PlatformPlan[] = [
     ctaText: 'Buy on Nestuge →',
     isRecommended: false,
     features: [
-      'Interactive cohort community access',
-      'Peer discussions & networking forums',
-      'Structured learning progress tracking',
-      'Accessible on web and mobile devices',
+      '* Instant access to the learning portal',
+      'Complete PriceLabs Masterclass modules',
+      'Lifetime access to RevenueLab Inner Circle',
+      '1-year access to the course',
+      'Course updates & direct support',
     ],
   },
   {
@@ -49,10 +51,11 @@ const platforms: readonly PlatformPlan[] = [
     ctaText: 'Buy on Selar →',
     isRecommended: false,
     features: [
-      'Pay in local currency (NGN, GHS, KES, USD, etc.)',
-      'Debit/credit cards, bank transfers & mobile money',
-      'Instant access link & invoice upon checkout',
-      'Dedicated local customer payment support',
+      '* Instant access to the learning portal',
+      'Complete PriceLabs Masterclass modules',
+      'Lifetime access to RevenueLab Inner Circle',
+      '1-year access to the course',
+      'Course updates & direct support',
     ],
   },
 ] as const;

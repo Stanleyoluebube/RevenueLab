@@ -152,7 +152,7 @@ export default function About(): React.JSX.Element {
               <p>
                 Beyond education, we provide professional revenue management
                 services to help hosts maximize the performance of their
-                properties — turning data into dollars.
+                properties — turning data into revenue.
               </p>
             </div>
 
