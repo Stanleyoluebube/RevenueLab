@@ -21,7 +21,7 @@ const platforms: readonly PlatformPlan[] = [
     ctaText: 'Buy Directly →',
     isRecommended: true,
     features: [
-      '* Instant access to the learning portal',
+      'Instant access to the learning portal',
       'Complete PriceLabs Masterclass modules',
       'Lifetime access to RevenueLab Inner Circle',
       '1-year access to the course',
@@ -36,7 +36,7 @@ const platforms: readonly PlatformPlan[] = [
     ctaText: 'Buy on Nestuge →',
     isRecommended: false,
     features: [
-      '* Instant access to the learning portal',
+      'Instant access to the learning portal',
       'Complete PriceLabs Masterclass modules',
       'Lifetime access to RevenueLab Inner Circle',
       '1-year access to the course',
@@ -51,7 +51,7 @@ const platforms: readonly PlatformPlan[] = [
     ctaText: 'Buy on Selar →',
     isRecommended: false,
     features: [
-      '* Instant access to the learning portal',
+      'Instant access to the learning portal',
       'Complete PriceLabs Masterclass modules',
       'Lifetime access to RevenueLab Inner Circle',
       '1-year access to the course',

@@ -153,14 +153,14 @@ export default function Footer(): React.JSX.Element {
 
                     {/* WhatsApp Community Link */}
                     <a
-                      href="https://chat.whatsapp.com/JK49tyEZkD79VumjBhC0Yn?mode=gi_t"
+                      href="https://wa.me/2348138393638"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors group"
                       aria-label="Join WhatsApp Community"
                     >
                       <MessageCircle className="w-4 h-4 text-[#25D366] group-hover:text-brand-orange transition-colors" />
-                      <span>WhatsApp Host Community</span>
+                      <span>WhatsApp</span>
                       <ArrowUpRight className="w-3.5 h-3.5 text-white/40 group-hover:text-white transition-colors" />
                     </a>
                   </div>
