@@ -57,7 +57,7 @@ const clientTestimonials: Testimonial[] = [
 const studentTestimonials: Testimonial[] = [
   {
     name: 'Celestina Ugwuoke',
-    role: 'STR Host, 5 Properties',
+    role: 'Short-Term Rental VA',
     review:
       'I really enjoyed the PriceLabs Revenue Academy class by Coach Ebere O.! It was simple, practical, and taught me so much about dynamic pricing. I highly recommend it to anyone looking to improve pricing and boost revenue.',
     rating: 5,
@@ -71,7 +71,7 @@ const studentTestimonials: Testimonial[] = [
   },
   {
     name: 'Chris Anthony',
-    role: 'Boutique Apartment Manager',
+    role: 'STR Host, 5 Properties',
     review:
       'Joining the WhatsApp community alone was worth the investment. Being able to ask questions and get instant feedback on revenue strategy is incredible.',
     rating: 5,
