@@ -195,7 +195,7 @@ const CoursePurchase: React.FC = () => {
                       <span className="text-xl sm:text-2xl font-serif text-white tracking-tight">
                         15% Off Course Price
                       </span>
-                      <span className="text-xs text-white/50">Early Access</span>
+                      <span className="text-xs text-white/50">For Affiliate Marketers</span>
                     </div>
                   </div>
 
