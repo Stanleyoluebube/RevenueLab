@@ -17,7 +17,7 @@ const platforms: readonly PlatformPlan[] = [
     id: 'urlkub',
     title: 'Direct Purchase',
     subtitle: 'Instant enrollment & course access',
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdXGb08qmI2UgiY1ydB6VOT_OD-dISxq9uWQ9AB17QHBd8gzw/viewform',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdNarcolQy1_ZsaUw2zw7MJ84VUrCDKHkQX-wHbst5H_1Uvpw/viewform',
     ctaText: 'Buy Directly →',
     isRecommended: true,
     features: [

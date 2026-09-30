@@ -2,11 +2,11 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Program from './components/Program'
-import WebinarBanner from './components/WebinarBanner'
 import Founders from './components/Founders'
 import WorkSamples from './components/WorkSamples'
 import Reviews from './components/Reviews'
 import CoursePurchase from './components/CoursePurchase'
+import PricingList from './components/PricingList'
 import Community from './components/Community'
 import Footer from './components/Footer'
 
@@ -18,11 +18,11 @@ export default function App() {
         <Hero />
         <About />
         <Program />
-        <WebinarBanner />
+        <CoursePurchase />
+        <PricingList />
         <Founders />
         <WorkSamples />
         <Reviews />
-        <CoursePurchase />
         <Community />
       </main>
       <Footer />
