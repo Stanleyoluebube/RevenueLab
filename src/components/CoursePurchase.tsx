@@ -128,10 +128,10 @@ const CoursePurchase: React.FC = () => {
           {/* Affiliate Marketing Badge & Highlight */}
           <div className="flex flex-wrap items-center gap-3 relative z-10">
             <span className="inline-block bg-brand-orange text-black font-semibold text-xs uppercase tracking-wider px-3.5 py-1 rounded-full">
-              Affiliate Program
+              Affiliate Discount
             </span>
             <span className="text-white text-base sm:text-lg font-medium">
-              Earn 15% commission when you refer someone to buy the course
+              Earn 15% commission when you refer someone
             </span>
           </div>
 
@@ -188,14 +188,14 @@ const CoursePurchase: React.FC = () => {
                   <div className="my-7 py-5 border-y border-white/[0.08]">
                     <div className="flex items-center gap-2 mb-1.5">
                       <span className="text-xs uppercase tracking-wider font-semibold text-brand-orange">
-                        Early Bird Discount Applied
+                      
                       </span>
                     </div>
                     <div className="flex items-baseline gap-2">
                       <span className="text-xl sm:text-2xl font-serif text-white tracking-tight">
-                        30% Off Launch Rate
+                    
                       </span>
-                      <span className="text-xs text-white/50">Early Access</span>
+                      <span className="text-xs text-white/50"></span>
                     </div>
                   </div>
 
