@@ -1,8 +1,8 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
-import Program from './components/Program'
 import PricingList from './components/PricingList'
+import Program from './components/Program'
 import CoursePurchase from './components/CoursePurchase'
 import Founders from './components/Founders'
 import WorkSamples from './components/WorkSamples'
@@ -17,12 +17,12 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <Program />
         <PricingList />
+        <Program />
         <CoursePurchase />
-        <Founders />
         <WorkSamples />
         <Reviews />
+        <Founders />
         <Community />
       </main>
       <Footer />

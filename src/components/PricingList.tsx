@@ -103,7 +103,7 @@ const volumeDiscounts = [
 ];
 
 const addOns = [
-  "Pricing Tool Account Creation — $50",
+  "Pricing Tool Account Creation",
   "PMS / Channel Manager Integration",
   "Additional Pricing Platform Setup",
   "Revenue Performance Report (One-time)",
