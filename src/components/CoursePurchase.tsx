@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, type Variants } from 'framer-motion';
-import { Calendar, Check } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 interface PlatformPlan {
   id: string;
