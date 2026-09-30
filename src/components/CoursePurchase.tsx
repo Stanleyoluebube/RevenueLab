@@ -131,7 +131,7 @@ const CoursePurchase: React.FC = () => {
               Affiliate Discount
             </span>
             <span className="text-white text-base sm:text-lg font-medium">
-              Earn 15% commission when you refer someone
+              Earn 15% commission when you refer someone.
             </span>
           </div>
 
@@ -184,18 +184,18 @@ const CoursePurchase: React.FC = () => {
                     {platform.subtitle}
                   </p>
 
-                  {/* Price display: Early Bird Discount Applied */}
+                  {/* Price display: AFFILIATE DISCOUNT AVAILABLE */}
                   <div className="my-7 py-5 border-y border-white/[0.08]">
                     <div className="flex items-center gap-2 mb-1.5">
                       <span className="text-xs uppercase tracking-wider font-semibold text-brand-orange">
-                      
+                        AFFILIATE DISCOUNT AVAILABLE
                       </span>
                     </div>
                     <div className="flex items-baseline gap-2">
                       <span className="text-xl sm:text-2xl font-serif text-white tracking-tight">
-                    
+                        15% Off Course Price
                       </span>
-                      <span className="text-xs text-white/50"></span>
+                      <span className="text-xs text-white/50">Early Access</span>
                     </div>
                   </div>
 
