@@ -204,6 +204,7 @@ export default function PricingList() {
             </div>
             <p className="text-white/40 text-xs mt-6 italic">
               The discount is applied to the total price of each service.
+              If any of the above discounts apply to you, please email us at revenuelabacademy@gmail.com to have your discount applied.
             </p>
           </motion.div>
 
@@ -240,7 +241,7 @@ export default function PricingList() {
             <ul className="space-y-3 text-white/60 text-sm">
               <li>• All prices are in USD.</li>
               <li>• Prices are per property / listing unless otherwise stated.</li>
-              <li>• Pricing bot / PMS subscription fees are not included.</li>
+              <li>• Pricing tool / PMS subscription fees are not included.</li>
               <li>• New Listing Pricing Setup is a one-time service.</li>
               <li>• Pricing Implementation is a one-time service.</li>
               <li>• Ongoing Revenue Management is billed monthly.</li>

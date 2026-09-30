@@ -111,7 +111,7 @@ const CoursePurchase: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Promotional Banner Card / Highlight */}
+        {/* Affiliate Marketing Banner / Highlight */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -125,23 +125,21 @@ const CoursePurchase: React.FC = () => {
             aria-hidden="true"
           />
 
-          {/* Early Bird Offer Badge & Highlight */}
+          {/* Affiliate Marketing Badge & Highlight */}
           <div className="flex flex-wrap items-center gap-3 relative z-10">
             <span className="inline-block bg-brand-orange text-black font-semibold text-xs uppercase tracking-wider px-3.5 py-1 rounded-full">
-              Early Bird Offer
+              Affiliate Program
             </span>
             <span className="text-white text-base sm:text-lg font-medium">
-              30% OFF Early Bird Pricing Currently Available
+              Earn 15% commission when you refer someone to buy the course
             </span>
           </div>
 
-          {/* Launch Date */}
+          {/* CTA for Affiliates */}
           <div className="flex items-center gap-2.5 text-white/70 text-sm font-medium relative z-10 shrink-0">
-            <Calendar className="w-4 h-4 text-brand-orange shrink-0" aria-hidden="true" />
-            <span>
-              Full Course Launches:{' '}
-              <strong className="text-white font-semibold">September 30, 2026</strong>
-            </span>
+            <span className="text-brand-orange font-bold">Join the Revolution</span>
+            <span className="text-white/40">•</span>
+            <span>Refer & Earn</span>
           </div>
         </motion.div>
 
