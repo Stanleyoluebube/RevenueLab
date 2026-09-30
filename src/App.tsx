@@ -21,8 +21,8 @@ export default function App() {
         <Program />
         <CoursePurchase />
         <WorkSamples />
-        <Reviews />
         <Founders />
+        <Reviews />
         <Community />
       </main>
       <Footer />
