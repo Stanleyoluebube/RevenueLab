@@ -161,17 +161,35 @@ export default function About(): React.JSX.Element {
           </div>
           <div className="relative z-10 order-1 lg:order-2">
             <motion.div
-              className="aspect-square rounded-3xl overflow-hidden border border-white/10 relative flex items-center justify-center group"
-              whileHover={{ scale: 1.02, rotateY: 10, rotateX: -10 }}
-              transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              style={{ perspective: "1000px" }}
+              className="relative group"
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
             >
-              <img
-                src="/images/logo.jpg"
-                alt="RevenueLab Logo"
-                className="absolute inset-0 w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700"
-              />
-              <div className="absolute inset-0 bg-black/20" />
+              {/* Animated outer glow ring */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-brand-orange to-orange-600 rounded-[2rem] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+
+              <div className="relative aspect-square rounded-[2rem] overflow-hidden border border-white/10 bg-black">
+                <motion.img
+                  src="/images/logo.jpg"
+                  alt="RevenueLab Logo"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  initial={{ scale: 1 }}
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                />
+
+                {/* Sophisticated overlay gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
+
+                {/* Subtle scanning light effect */}
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent -translate-x-full"
+                  animate={{ x: ['100%', '-100%'] }}
+                  transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
+                />
+              </div>
             </motion.div>
           </div>
         </motion.div>
