@@ -115,15 +115,15 @@ const addOns = [
 
 export default function PricingList() {
   return (
-    <section id="pricing" className="py-24 md:py-32 bg-black border-y border-white/[0.06]">
+    <section id="pricing" className="py-16 md:py-24 bg-black border-y border-white/[0.06]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-5xl text-white font-serif mb-6"
+            className="text-3xl md:text-5xl text-white font-serif mb-4"
           >
             Revenue Management Services & Rate Card
           </motion.h2>
@@ -138,41 +138,48 @@ export default function PricingList() {
           </motion.p>
         </div>
 
-        {/* Main Services Table */}
-        <div className="overflow-x-auto mb-16">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="border-b border-white/[0.1] text-brand-orange uppercase text-xs tracking-widest">
-                <th className="py-4 px-4 font-medium">Service</th>
-                <th className="py-4 px-4 font-medium">Price</th>
-                <th className="py-4 px-4 font-medium hidden md:table-cell">What's Included</th>
-              </tr>
-            </thead>
-            <tbody className="text-white">
-              {mainServices.map((item, idx) => (
-                <tr key={idx} className="border-b border-white/[0.06] hover:bg-white/[0.02] transition-colors">
-                  <td className="py-6 px-4">
-                    <div className="font-medium text-lg">{item.service}</div>
-                    <div className="text-white/40 text-xs uppercase mt-1">{item.type}</div>
-                  </td>
-                  <td className="py-6 px-4">
-                    <div className="font-serif text-xl text-brand-orange">{item.price}</div>
-                    <div className="text-white/40 text-xs">{item.period}</div>
-                  </td>
-                  <td className="py-6 px-4 hidden md:table-cell">
-                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-1">
-                      {item.included.map((point, pIdx) => (
-                        <li key={pIdx} className="text-white/60 text-sm flex items-start gap-2">
-                          <span className="text-brand-orange">•</span>
-                          {point}
-                        </li>
-                      ))}
-                    </ul>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          {mainServices.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6 hover:border-brand-orange/20 transition-colors duration-300 flex flex-col"
+            >
+              <div className="mb-4">
+                <h3 className="text-white text-xl font-serif mb-1">{item.service}</h3>
+                <p className="text-white/40 text-xs uppercase tracking-wider">{item.type}</p>
+              </div>
+
+              <div className="flex justify-between items-center mb-6 bg-white/[0.03] p-3 rounded-xl border border-white/[0.04]">
+                <div className="flex flex-col">
+                  <span className="text-2xl font-serif text-brand-orange font-bold">{item.price}</span>
+                  <span className="text-white/40 text-xs">{item.period}</span>
+                </div>
+                <a
+                  href="#"
+                  className="bg-brand-orange hover:bg-brand-orange-light text-white px-4 py-2 rounded-full text-xs font-medium transition cursor-pointer"
+                >
+                  Pay Now
+                </a>
+              </div>
+
+              <div className="flex-grow">
+                <p className="text-white/60 text-xs uppercase tracking-widest mb-3 font-medium">What's Included</p>
+                <ul className="space-y-2">
+                  {item.included.map((point, pIdx) => (
+                    <li key={pIdx} className="text-white/50 text-sm flex items-start gap-2">
+                      <span className="text-brand-orange">•</span>
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </motion.div>
+          ))}
         </div>
 
         {/* Discounts and Add-ons Grid */}
@@ -245,7 +252,7 @@ export default function PricingList() {
           </motion.div>
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-12 text-center">
           <p className="text-white/40 text-sm italic">
             Let's work together to maximize your revenue and grow your STR business.
           </p>

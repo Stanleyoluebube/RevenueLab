@@ -47,7 +47,7 @@ const curriculum: CurriculumItem[] = [
 
 export default function Program() {
   return (
-    <section id="program" className="py-24 md:py-32 bg-black">
+    <section id="program" className="py-16 md:py-24 bg-black">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         {/* Section Header */}
         <motion.div
@@ -69,7 +69,7 @@ export default function Program() {
         </motion.div>
 
         {/* Curriculum Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
           {curriculum.map((item, index) => (
             <motion.div
               key={item.number}

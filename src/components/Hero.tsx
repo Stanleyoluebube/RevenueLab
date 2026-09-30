@@ -94,10 +94,10 @@ const Hero: React.FC = () => {
               Enroll Now
             </a>
             <a
-              href="#webinar"
+              href="https://flutterwave.com/pay/pbja9xvjtvyk"
               className="border border-white/15 bg-white/5 hover:bg-white/10 text-white rounded-full px-8 py-3.5 text-sm font-medium transition cursor-pointer"
             >
-              Free Webinar &rarr;
+              Book a consultation
             </a>
           </div>
 
