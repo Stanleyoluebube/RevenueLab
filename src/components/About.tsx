@@ -159,7 +159,7 @@ export default function About(): React.JSX.Element {
               Whether you need a one-time setup or ongoing revenue management, we tailor our services to your property’s needs.
             </p>
           </div>
-          <div className="relative z-10 order-1 lg:order-2"> </div>
+          <div className="relative z-10 order-1 lg:order-2">
             <motion.div
               className="aspect-square rounded-3xl overflow-hidden border border-white/10 relative flex items-center justify-center group"
               whileHover={{ scale: 1.02, rotateY: 10, rotateX: -10 }}
@@ -173,8 +173,12 @@ export default function About(): React.JSX.Element {
               />
               <div className="absolute inset-0 bg-black/20" />
             </motion.div>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
       </div>
     </section>
   );
