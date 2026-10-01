@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
               Enroll Now
             </a>
             <a
-              href="https://flutterwave.com/pay/pbja9xvjtvyk"
+              href="https://flutterwave.com/pay/revenuelabacademyconsultation"
               className="border border-white/15 bg-white/5 hover:bg-white/10 text-white rounded-full px-8 py-3.5 text-sm font-medium transition cursor-pointer"
             >
               Book a consultation
